@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="461dp"
+        android:layout_height="match_parent"
+        android:background="#EFEFEF"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Character Selection Spinner -->
+        <TextView
+            android:id="@+id/character_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:text="New character:"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/character_name"
+            android:layout_width="414dp"
+            android:layout_height="41dp"
+            android:layout_marginBottom="6dp"
+            android:hint="Name your character!" />
+
+        <!-- Attack Power Input -->
+        <TextView
+            android:id="@+id/attack_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:text="Attack Power:"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/attack_power_edit_text"
+            android:layout_width="414dp"
+            android:layout_height="41dp"
+            android:layout_marginBottom="6dp"
+            android:hint="Enter attack power"
+            android:inputType="numberDecimal" />
+
+        <!-- Health Input -->
+        <TextView
+            android:id="@+id/health_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:text="Health:"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/health_edit_text"
+            android:layout_width="414dp"
+            android:layout_height="41dp"
+            android:layout_marginBottom="6dp"
+            android:hint="Enter health"
+            android:inputType="numberDecimal" />
+
+        <!-- Speed Input -->
+
+        <TextView
+            android:id="@+id/speed_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:text="Speed:"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/speed_edit_text"
+            android:layout_width="413dp"
+            android:layout_height="41dp"
+            android:layout_marginBottom="6dp"
+            android:hint="Enter speed"
+            android:inputType="numberDecimal" />
+
+        <!-- Save Button -->
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="230dp"
+        android:layout_height="47dp"
+        android:background="#4CAF50"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="475dp"
+        android:text="Save Character"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"/>
+</RelativeLayout>
+
